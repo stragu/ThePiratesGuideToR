@@ -25,10 +25,10 @@ Here are some functions helpful for managing your workspace that we'll go over i
 |`rm(a, b, ..)`|Removes the objects `a`, `b`... from your workspace|
 |`rm(list = ls())`|Removes *all* objects in your workspace|
 |`getwd()`|Returns the current working directory |
-|`setwd(file = "dir)`|Changes the working directory to a specified file location |
+|`setwd(dir = "path/to/dir")`|Changes the working directory to a specified path |
 |`list.files()`|Returns the names of all files in the working directory |
 |`write.table(x, file = "mydata.txt", sep)`|writes the object `x` to a text file called `mydata.txt`. Define how the columns will be separated with `sep` (e.g.; `sep = ","` for a comma--separated file, and `sep = \t"` for a tab--separated file).|
-|`save(a, b, .., file = "myimage.RData)`|Saves objects `a`, `b`, ... to  `myimage.RData` |
+|`save(a, b, .., file = "myimage.RData")`|Saves objects `a`, `b`, ... to  `myimage.RData` |
 |`save.image(file = "myimage.RData")`|Saves *all* objects in your workspace to `myimage.RData`|
 |`load(file = "myimage.RData")`|Loads objects in the file `myimage.RData`|
 |`read.table(file = "mydata.txt", sep, header)`|Reads a text file called `mydata.txt`, define how columns are separated with `sep` (e.g. `sep = ","` for comma-delimited files, and `sep = "\t"` for tab-delimited files), and whether there is a header column with `header = TRUE`|
